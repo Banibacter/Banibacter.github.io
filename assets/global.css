@@ -23,3 +23,12 @@
 .text-italic {
   font-style: italic;
 }
+
+.navbar:hover {
+  opacity: 100%;
+}
+
+.navbar {
+  opacity: 0;
+  transition: opacity .7s;
+}
