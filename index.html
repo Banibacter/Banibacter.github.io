@@ -10,11 +10,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link rel="stylesheet" href="assets/global.css">
-
-  <title>Hello, world!</title>
+  <link rel="stylesheet" href="assets/styel.css">
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
+  <title>Cuisiner en Pleine Nature</title>
 </head>
 
-<body style="background-color: #e6e6e6;">
+<body style="background-color: #e6e6e6;"> 
   <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed;top: 0;left: 0;right: 0; z-index: 10000;">
     <img src="assets/images/TapTrip Fix.jpeg" height="50px" width="50px" style="border-radius: 500px;" alt="CPN"> 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,10 +24,10 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mount Trip</a>
+          <a class="nav-link" href="#">Mount Trip </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">La Cuisine</a>
@@ -36,21 +37,21 @@
             Cooking Tips
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Teknik Memotong</a>
-            <a class="dropdown-item" href="#">Teknik Memasak</a>
+            <a class="dropdown-item" href="teknik memotong.html">Teknik Memotong</a>
+            <a class="dropdown-item" href="Teknik Memasak.html">Teknik Memasak</a>
             <a class="dropdown-item" href="#">Rekomendasi Resep</a>
           </div>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">About Web</a>
             <a class="dropdown-item" href="#">Author</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+            <a class="dropdown-item" href="contact-us.html">For Question or Help</a>
           </div>
-        </li>
+          </li>
       </ul>
     </div>
   </nav>
@@ -61,9 +62,19 @@
       <h1 class="text-center text-bolder" style="font-style: italic; color: rgb(116 190 119);">Cuisiner en Pleine Nature</h1>
     </div>
   <div>
-    <p><i>Sharing Tips and Experience from Nature</i></p>
+    <marquee> <p><i>Sharing Tips and Experience from Nature</i></p></marquee>
+  </div>
+  <div>
+    <audio controls autoplay hidden>
+      <source src="assets/images/audio/procjet.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+
+  </div>
   </div>
   <div style="height: 5em;">
+
+
 
   </div>
    </div>
@@ -79,7 +90,7 @@
         </div>
       </div>
       <div class="col-md-12 col-lg-6 p-5 m-0">
-        <h1 class="text-bolder">Mount Trip</h1>
+        <h1 class="text-bolder" style="font-style: italic;">Mount Trip</h1>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore
@@ -89,6 +100,8 @@
           pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum."
+          <br>
+          <a href="Teknik Memasak.html" class="next" style="float:right">Next &raquo;</a> 
         </p>
       </div>
     </div>
@@ -101,7 +114,7 @@
         </div>
       </div>
       <div class="col-md-12 col-lg-6 p-5 m-0">
-        <h1 class="text-bolder">La Cuisine</h1>
+        <h1 class="text-bolder" style="font-style: italic;">La Cuisine</h1>
         <p>
           "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
           dolore
@@ -111,6 +124,8 @@
           pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
           laborum."
+          <br>
+          <a href="Teknik Memasak.html" class="next" style="float:right">Next &raquo;</a> 
         </p>
       </div>
     </div>
@@ -122,7 +137,7 @@
           </div>
         </div>
         <div class="col-md-12 col-lg-6 p-5 m-0">
-          <h1 class="text-bolder">Cooking Tips</h1>
+          <h1 class="text-bolder" style="font-style: italic;">Cooking Tips</h1>
           <p>
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
             dolore
@@ -132,37 +147,23 @@
             pariatur.
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
             laborum."
+            <br>
+            <a href="Teknik Memasak.html" class="next" style="float:right">Next &raquo;</a> 
           </p>
         </div>
       </div>
   </div>
   </div>
 
-  <div id="footer" class="row p-3 m-0 text-white text-center" style="background-color: #121426;">
-    <div class="col-12 col-lg-4">
-      <h4 class="text-bolder">CONTACT US</h4>
-      <div class="d-flex">
-        <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="#fff">
-            <path
-              d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm4.615 6h-9.23c-.766 0-1.385.62-1.385 1.384v9.23c0 .766.619 1.386 1.385 1.386h9.23c.766 0 1.385-.62 1.385-1.385v-9.23c0-.765-.619-1.385-1.385-1.385zm-4.615 3.693c1.274 0 2.309 1.032 2.309 2.307s-1.035 2.307-2.309 2.307-2.307-1.033-2.307-2.307 1.033-2.307 2.307-2.307zm4.5 6.346c0 .255-.207.461-.461.461h-8.078c-.254 0-.461-.207-.461-.461v-5.039h.949c-.045.158-.078.32-.102.486-.023.168-.038.339-.038.514 0 2.04 1.652 3.693 3.691 3.693s3.691-1.653 3.691-3.693c0-.174-.015-.346-.039-.514-.023-.166-.058-.328-.102-.486h.95v5.039zm0-6.991c0 .255-.207.462-.461.462h-1.088c-.256 0-.461-.208-.461-.462v-1.087c0-.255.205-.461.461-.461h1.088c.254 0 .461.207.461.461v1.087z" />
-          </svg></span>
-        <p>Gmail.com</p>
-      </div>
-    </div>
-    <div class="col-12 col-lg-4">
-      <h4 class="text-bolder text-italic">Title Website</h4>
-    </div>
-    <div class="col-12 col-lg-4">
-      <h4 class="text-bolder">AUTHOR</h4>
-      <p>Name</p>
-    </div>
-  </div>
-
   <!-- footer -->
     <div class="row p-3 m-0 text-white text-center" style="background-color: #121426;">
       <div class="col-12 col-lg-4">
         <h4 class="text-bolder">CONTACT US</h4>
-        <p>Thabraniabdi85@gmail.com</p>
+        <p>
+          <a href="mailto:thabraniabdi85@gmail.com" class="putih" style="background-color: #121426;" style="color : white;">Thabraniabdi85@gmail.com</a></p>
+          <a href="https://www.instagram.com/thabrani11/?hl=id" style="background-color: #121426;"><img src="assets/images/IG.svg" width="50" height="50"></a>
+          <a href="https://www.linkedin.com/in/thabrani-abdi-0698a0157/" style="background-color: #121426;"><img src="assets/images/ln.svg" width="50" height="50"></a>
+          <a href="https://www.youtube.com/channel/UCEsatp923JN-xfJNrFnbzEg" style="background-color: #121426;" ><img src="assets/images/yo.svg" width="50" height="50" ></a>
       </div>
       <div class="col-12 col-lg-4">
         <h3 class="text-bolder text-italic">Cuisiner en Pleine Nature</h3>
@@ -177,6 +178,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+<script>(function titleScroller(text) {
+  document.title = text;
+  setTimeout(function () {
+      titleScroller(text.substr(1) + text.substr(0, 1));
+  }, 500);
+}(" Cuisiner en Pleine Nature"));</script>
+  </body>
 
 </html>

@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;900&display=swap");
 
-* {
+/* * {
   font-family: "Frank Ruhl Libre", serif;
   font-size: 18px;
   font-weight: 400;
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-}
+} */
 
 .color-primary {
-  color: #080c30;
+  color: blanchedalmond;
 }
 
 .text-bold {
@@ -30,5 +30,39 @@
 
 .navbar {
   opacity: 0;
-  transition: opacity .7s;
+  transition: opacity .85s;
+  .pointer {cursor: pointer;}
+}
+
+{
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+div.ex1 {
+  background-color: lightblue;
+  height: 40px;
+  width: 200px;
+  overflow-y: scroll;
+}
+a:hover {
+  background-color: #e6e6e6;
+  color: coral;
+}
+.putih:link{
+  color: white !important;
+}
+
+.previous {
+  background-color: #e6e6e6;
+  color: peru;
+}
+
+.next {
+  background-color: #e6e6e6;
+  color: peru;
+}
+
+.round {
+  border-radius: 50%;
 }
