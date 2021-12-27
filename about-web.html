@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
   <link rel="stylesheet" href="assets/global.css">
-
+  <link rel="shortcut icon" href="assets/images/favicon.ico">
   <title>Cuisiner en Pleine Nature-about Web</title>
 </head>
 
@@ -26,19 +26,19 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Mount Trip </a>
+          <a class="nav-link" href="Tripmon.html">Mount Trip </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">La Cuisine</a>
+          <a class="nav-link" href="La-Cuisine.html">La Cuisine</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="Cooking-Tips.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Cooking Tips
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="teknik memotong.html">Teknik Memotong</a>
             <a class="dropdown-item" href="Teknik Memasak.html">Teknik Memasak</a>
-            <a class="dropdown-item" href="#">Rekomendasi Resep</a>
+            <a class="dropdown-item" href="Rekomendasi-Resep.html">Rekomendasi Menu</a>
           </div>
         </li>
         <li class="nav-item dropdown">
@@ -46,8 +46,8 @@
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">About Web</a>
-            <a class="dropdown-item" href="#">Author</a>
+            <a class="dropdown-item" href="about-web.html">About Web</a>
+            <a class="dropdown-item" href="Author.html">Author</a>
             <a class="dropdown-item" href="contact-us.html">For Question or Help</a>
           </div>
       </ul>
@@ -93,7 +93,7 @@
             <br>
             Ide website ini didapat dari pengalaman saya sendiri yang suka traveling khusus nya ke tempat alam terbuka, seperti hutan, gunung, pantai, dll. pada website ini saya berbagi pengalaman seputar penjelajahan alam yang sudah saya lalui dan bagaimana cara memasak di kondisi tersebut.
           <br>
-          <a href="Teknik Memasak.html" class="next" style="float:right">Home &raquo;</a> 
+          <a href="index.html" class="next" style="float:right">Home &raquo;</a> 
         </p>
       </div>
     </div>
@@ -119,10 +119,13 @@
           3. Peta Indonesia yang di lingkari dengan garis titik-titik: merupakan lambang dari jasa kami yang berharap dapat membawa anda untuk mengelilingi seluruh Indonesia.
         </p>
       </div>
+      <a href="Author.html" class="next" style="float: right;">Next &raquo;</a>
     </div>
     
   </div>
   </div>
+     
+   
 
   <!-- footer -->
     <div class="row p-3 m-0 text-white text-center" style="background-color: #121426;">
@@ -147,7 +150,12 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script>(function titleScroller(text) {
+      document.title = text;
+      setTimeout(function () {
+          titleScroller(text.substr(1) + text.substr(0, 1));
+      }, 500);
+    }(" Cuisiner en Pleine Nature"));</script>
   </body>
 
 </html>
